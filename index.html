@@ -17,7 +17,7 @@
 <body>
     <input type="checkbox" name="" id="dark-mode">
     <div class="container">
-        <div class="home">
+        <div class="home" id="home">
             <header>
                 <div class="links">
                     <i class="fab fa-github">
@@ -49,20 +49,11 @@
             </header>
             <nav>
                 <ul>
-                    <li class="h-ome"><span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
+                    <li class="h-ome">
                         <a href="#home"> Home</a></li>
-                    <li class="a-bout"><span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
+                    <li class="a-bout">
                         <a href="#about"> About</a></li>
-                    <li class="c-ontact"><span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
+                    <li class="c-ontact">
                         <a href="#contact-me"> Contact Me</a></li>
                 </ul>
             </nav>
@@ -77,9 +68,81 @@
             </main>
 
         </div>
-        <div class="about"></div>
-        <div class="projects"></div>
-        <div class="contact-me"></div>
+
+        <div class="about" id="about">
+            <div class="main">
+                <div class="lfloat">
+                    <h1> Education Qualification</h1>
+                    <ol>
+                        <li><h2> Secondary Education</h2>
+                            <ul>
+                                <li> CGPA : 9.4</li>
+                            </ul>
+                        </li>
+                        <li><h2> Senion Secondary Education</h2>
+                            <ul>
+                                <li>Physics : 93, Mathematics: 93, Chemistry : 85 </li>
+                            </ul>                        
+                        </li>
+                        <li><h2>Graduation</h2>
+                            <ul>
+                                <li>Bachelor's Degree from Kurukshetra University</li>
+                            </ul> 
+                        
+                        </li>
+                    </ol>
+                </div>
+                <div class="rfloat">
+                    <h1>Skills</h1>
+                    <ol>
+                        <li><h2>Communication Skills</h2>
+                            <ul>
+                                <li> IELTS SCORE: 6.5 in Each module </li>
+                            </ul>
+                        </li>
+                        <li><h2>Computer Knowledge</h2>
+                            <ul>
+                                <li> Typing Speed : 45 wpm </li>
+                                <li> Programming languages known: HTML & CSS </li>
+                            </ul>
+                        </li>
+                    </ol>                    
+                </div>
+            </div>
+        </div>
+        <div class="contact-me" id="contact-me">
+            <div class="main">
+                <address>
+                    <div class="add-1">
+                        <i class="fas fa-home"></i>
+                        <span>Address</span>
+                    </div>
+                    <div class="add-2">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Ward no. 20, Gobindgarh</p>
+                        <p>Thanesar, Kurukshetra</p>
+                        <p>(Pin Code-136118), Haryana</p>
+                    </div>
+                </address>
+                <form action="">
+                    <h1>Get in touch with me</h1>
+                    <input type="text" name="" id="user-name" required>
+                    <label class="user-name">Username</label>
+                    <textarea name="" id="text" cols="5" rows="4"></textarea>
+                    <label class="text">Enter your message here...</label>
+                    <a href="#submit" class="submit">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>    
+                        <input type="submit" value="S U B M I T">
+                        
+                        
+                    </a>
+
+                </form>
+            </div>
+        </div>
     </div>
 
 </body>
